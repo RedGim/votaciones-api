@@ -59,3 +59,40 @@ POST /votes → Emitir voto
 GET /votes → Listar votos
 
 GET /votes/statistics → Estadísticas de votación
+
+## Ejemplos de uso
+
+### Crear votante
+
+curl -X 'POST' \
+  'http://127.0.0.1:8000/voters' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "Pepe Prado",
+  "email": "pepe@email.com"
+}'
+
+### Crear candidato
+
+curl -X POST "http://127.0.0.1:8000/candidates" \
+-H 'accept: application/json' \
+-H "Content-Type: application/json" \
+-d '{
+"name": "Maria Lopez",
+"party": "Partido A"
+}'
+
+### Emitir voto
+
+curl -X 'POST' \
+  'http://127.0.0.1:8000/votes' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "voter_id": 3,
+  "candidate_id": 1
+}'
+
+
+
