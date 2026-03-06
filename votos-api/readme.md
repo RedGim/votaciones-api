@@ -100,6 +100,6 @@ Ejemplo de estadísticas generadas por el endpoint `/votes/statistics`.
 
 ![estadisticas](Estadisticas.png)
 
-Ejemlo de la grafica
+Ejemplo de la grafica
 
 ![Gradica](votes_chart.png)
