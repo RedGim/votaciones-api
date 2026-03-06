@@ -94,5 +94,12 @@ curl -X 'POST' \
   "candidate_id": 1
 }'
 
+### Estadísticas de votación
 
+Ejemplo de estadísticas generadas por el endpoint `/votes/statistics`.
 
+![estadisticas](app/Estadisticas.png)
+
+Ejemlo de la grafica
+
+![Gradica](app/votes_chart.png)
