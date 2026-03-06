@@ -98,8 +98,8 @@ curl -X 'POST' \
 
 Ejemplo de estadísticas generadas por el endpoint `/votes/statistics`.
 
-![estadisticas](app/Estadisticas.png)
+![estadisticas](votos-api/app/Estadisticas.png)
 
 Ejemlo de la grafica
 
-![Gradica](app/votes_chart.png)
+![Gradica](votos-api/app/votes_chart.png)
